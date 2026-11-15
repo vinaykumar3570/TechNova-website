@@ -1,0 +1,241 @@
+  /* ----- Hero Content  */
+  .hero {
+    background: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    position: relative;
+  }
+
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero-content .hero-btn {
+    margin-top: 30px;
+  }
+
+  .available-project {
+    background: var(--text-color);
+    width: 330px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .available-project span {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    display: block;
+    margin-right: 10px;
+  }
+
+  .available-project p {
+    color: var(--dark-text-color);
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .hero-content>p {
+    margin: 10px 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  /* ---- Language Section ---- */
+
+  .lang-box {
+    background: rgba(0, 37, 75, 0.5);
+    width: 100%;
+    padding: 30px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 24px;
+  }
+
+  .lang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey-color);
+    margin: 10px 40px;
+  }
+
+  .lang i {
+    color: var(--grey-color);
+    margin-right: 6px;
+  }
+
+
+  /* About Section */
+
+  .container section.about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+  }
+
+  section.about .about-left {
+    width: 50%;
+  }
+
+  .about-left h2 {
+    color: var(--light-grey-color);
+  }
+
+  .about-left p {
+    margin: 40px 0 50px;
+  }
+
+  .about-right {
+    position: relative;
+    width: 40%;
+    height: 100%;
+  }
+
+  .about-right img {
+    border-radius: 30px;
+    width: 100%;
+  }
+
+  .about-right .gradient-box {
+    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom, transparent 40%, #000);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+  }
+
+  .experience {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+  }
+
+  .experience h3 {
+    font-size: 38px;
+    color: var(--text-color);
+  }
+
+  .experience p {
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+
+  /* ----Responsive Screen Code---- */
+
+  @media (max-width: 1200px) {
+    .hero-content {
+      width: 70%;
+    }
+
+    .lang-box {
+      padding: 20px 120px;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .available-project {
+      width: 300px;
+    }
+
+    .available-project span {
+      height: 8px;
+      width: 8px;
+    }
+
+    .available-project p {
+      font-size: 14px;
+    }
+
+    .lang-box {
+      padding: 15px 80px;
+    }
+
+    .lang {
+      margin: 10px 20px;
+    }
+
+    .container section.about {
+      flex-direction: column;
+    }
+
+    section.about .about-left {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+
+    .about-right {
+      width: 100%;
+    }
+
+    .experience h3 {
+      font-size: 24px;
+    }
+
+    .experience P {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .hero-content {
+      width: 90%;
+    }
+
+    .hero-content>p {
+      margin: 10px 0;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .available-project {
+      width: 270px;
+      margin-bottom: 10px;
+    }
+
+    .available-project span {
+      height: 6px;
+      width: 6px;
+    }
+
+    .available-project p {
+      font-size: 12px;
+    }
+
+    .lang-box {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+
+    .lang {
+      margin: 10px 10px;
+    }
+
+    
+
+  }

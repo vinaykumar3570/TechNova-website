@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* Base styles */
+      .workflow {
+        background: radial-gradient(circle at top left, #0b1c2d, #050b14);
+        color: #fff;
+        padding: 80px 20px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+
+      .workflow h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        color: #b0c4de;
+        margin-bottom: 60px;
+        font-size: 16px;
+      }
+
+      /* Steps container */
+      .steps {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+        max-width: 1100px;
+        margin: auto;
+        position: relative;
+      }
+
+      /* Horizontal line */
+      .steps::before {
+        content: "";
+        position: absolute;
+        top: 35px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+      }
+
+      /* Individual step */
+      .step {
+        flex: 1;
+        max-width: 250px;
+      }
+
+      .icon {
+        width: 60px;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 22px;
+        z-index: 1;
+        position: relative;
+      }
+
+      .step h3 {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+
+      .step p {
+        font-size: 14px;
+        color: #cfd9e6;
+        margin-top: 8px;
+      }
+
+      /* Tablet */
+      @media (max-width: 900px) {
+        .workflow h2 {
+          font-size: 30px;
+        }
+
+        .steps {
+          gap: 20px;
+        }
+
+        .icon {
+          width: 50px;
+          height: 50px;
+          font-size: 20px;
+        }
+      }
+
+      /* Mobile */
+      @media (max-width: 600px) {
+        .steps {
+          flex-direction: column;
+          align-items: center;
+          gap: 60px;
+        }
+
+        .step {
+          position: relative;
+          text-align: center;
+          max-width: 100%;
+        }
+
+        /* Vertical line between steps */
+        .step::before {
+          content: "";
+          position: absolute;
+          top: -60px;
+          left: 50%;
+          width: 2px;
+          height: 60px;
+          background: rgba(255, 255, 255, 0.35);
+          transform: translateX(-50%);
+          z-index: 0;
+          /* display: none; */
+        } 
+
+        /* Remove line above first step */
+        .step:first-child::before {
+          display: none;
+        }
+
+        .icon {
+          margin: 0 auto;
+          position: relative;
+          z-index: 1;
+          background: #0b1c2d;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="workflow">
+      <h2>How we Work</h2>
+      <p class="subtitle">A streamlined process from concept to launch.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="icon">🔍</div>
+          <h3>Discovery</h3>
+          <p>We analyze your goals, market, and challenges.</p>
+        </div>
+
+        <div class="step">
+          <div class="icon">🧠</div>
+          <h3>Strategy</h3>
+          <p>Creating a roadmap for success and scalability.</p>
+        </div>
+
+        <div class="step">
+          <div class="icon">&lt;/&gt;</div>
+          <h3>Development</h3>
+          <p>Agile sprints to bring the product to life.</p>
+        </div>
+
+        <div class="step">
+          <div class="icon">🚀</div>
+          <h3>Deployment</h3>
+          <p>Launch, monitor, and optimize for growth.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

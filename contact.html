@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact Us</title>
+
+  <!-- FontAwesome CSS link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- FontAwesome CSS link - Offline  -->
+  <link rel="stylesheet" href="fontAwesome/css/all.min.css" />
+
+  <!-- All in one CSS  -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Main FIle CSS Link  -->
+  <link rel="stylesheet" href="css/contact.css" />
+
+</head>
+
+<body>
+  <div class="ellipse ellipse3"></div>
+  <header>
+    <div class="logo">TechNova</div>
+    <div class="nav-cta" id="nav-cta">
+      <div></div>
+      <nav>
+        <a href="index.html" onclick="closeHamburger()">Home</a>
+        <a href="about.html" onclick="closeHamburger()">About</a>
+        <a href="service.html" onclick="closeHamburger()">Service</a>
+        <a href="project.html" onclick="closeHamburger()">Project</a>
+      </nav>
+      <a href="contact.html" class="cta-btn" onclick="closeHamburger()">
+        Let's Talk
+      </a>
+    </div>
+    <div id="hamburger" class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      <h2>Let's Start a Conversation</h2>
+      <p>
+        Have a question about our technology? Fill out the form below or
+        <br />
+        reach out directly to our team.
+      </p>
+    </main>
+
+    <div class="contact-box">
+      <form action="#" class="form-left">
+        <div class="name-box input-box">
+          <div class="first-name">
+            <label for="first-name" class="required"> First Name </label>
+            <input type="text" name="First Name" class="input" required />
+          </div>
+          <div class="last-name">
+            <label for="last-name" class="required"> Last Name </label>
+            <input type="text" name="Last Name" class="input" required />
+          </div>
+        </div>
+        <div class="work-email input-box">
+          <label for="email" class="required"> Work Email </label>
+          <input type="email" name="Email" class="input" required />
+        </div>
+        <div class="company input-box">
+          <label for="Company" class="optional"> Company </label>
+          <input type="text" name="Company" class="input" />
+        </div>
+        <div class="message input-box">
+          <label for="message" class="required"> Message </label>
+          <textarea class="input" name="Message" cols="30" rows="7" style="resize:none;" required></textarea>
+        </div>
+        <div class="send-btn">
+          <button class="btn btn-primary" type="submit">Send Message</button>
+        </div>
+      </form>
+      <div class="form-right">
+        <div class="box">
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="text">
+            <h5>Email</h5>
+            <p>Our Team is here to help</p>
+            <span> nova@techcompany.com </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="contact-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="text">
+            <h5>Office</h5>
+            <p>Come say hello at our office.</p>
+            <span>Meerut, UttarPradesh, India </span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="text">
+            <h5>Phone</h5>
+            <p>Mon-Fri from 10am to 5pm</p>
+            <span> +91-9876543210 </span>
+          </div>
+        </div>
+        <div class="follow-box">
+          <span> Follow us:</span>
+          <div class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-x-twitter"></i>
+          </div>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Starts -->
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h4>Company</h4>
+          <a href="about.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="project.html">Projects</a>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <a href="#">Development</a>
+          <a href="#">Web Design</a>
+          <a href="#">Digital Marketing</a>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <a href="#">Twitter</a>
+          <a href="#">Linkedin</a>
+          <a href="#">Instagram</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="#">Privacy</a> <br>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <div>
+          &copy; 2025 TechNova Inc. All right reserved.
+        </div>
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+          Meerut, UP, India
+        </div>
+      </div>
+    </footer>
+    <!-- footer end here....  -->
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
