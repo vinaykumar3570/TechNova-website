@@ -94,25 +94,6 @@ TechNova/
 - Contact form interface.
 - Customer inquiry section.
 
-## ⚙️ Installation & Setup
-
-Follow these steps to run the project locally.
-
-**Step 1: Clone the repository**
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-```
-
-**Step 2: Open the project folder**
-
-```bash
-cd TechNova
-```
-
-**Step 3: Run the website**
-
-Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
 
 ## 🎯 Project Objectives
 
@@ -123,23 +104,10 @@ Open `index.html` in your browser, or use the Live Server extension in Visual St
 - Develop reusable website layouts.
 - Build a professional multi-page website.
 
-## 🔮 Future Improvements
-
-- Improve responsiveness across all devices.
-- Add dynamic project filtering.
-- Implement contact form validation.
-- Connect the contact form to a backend.
-- Improve website accessibility.
-- Optimize images and loading performance.
-- Add SEO-friendly metadata.
-- Deploy the website online.
-
 ## 👨‍💻 Author
 
 **Vinay Kumar**
-
 Frontend Developer
-
 Interested in creating modern, responsive, and user-friendly web experiences.
 
 ## 📌 Project Status
