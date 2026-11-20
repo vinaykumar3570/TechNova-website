@@ -105,7 +105,8 @@
   }
 
   .about-left p {
-    margin: 40px 0 50px;
+    margin: 20px 0 40px;
+    font-size: 18px;
   }
 
   .about-right {
@@ -236,6 +237,6 @@
       margin: 10px 10px;
     }
 
-    
+
 
   }

@@ -21,258 +21,6 @@
    <!-- Main FIle CSS Link  -->
    <link rel="stylesheet" href="css/project.css" />
 
-   <style>
-      section.main { 
-         /* border: 1px solid red; */
-         margin-bottom: 50px;
-      }
-
-      .portfolio {
-         background: var(--light-grey-color);
-         color: var(--dark-text-color);
-         font-weight: 900;
-         padding: 3px 18px;
-         border-radius: 15px;
-         display: flex;
-         align-items: center;
-      }
-
-      .portfolio span {
-         display: block;
-         height: 8px;
-         width: 8px;
-         background: var(--primary-color);
-         border-radius: 50%;
-         margin-right: 10px;
-      }
-
-      /* Work Section Styling  */
-
-      section.work {
-         padding: 10px;
-         padding-bottom: 100px;
-      }
-
-      h2+p {
-         color: var(--light-grey-color);
-         font-size: 20px;
-         margin-bottom: 50px;
-      }
-
-      .card-container {
-         display: flex;
-         gap: 4%;
-         flex-wrap: wrap;
-         justify-content: center;
-      }
-
-      .card-container .card {
-         /* border: 1px solid red; */
-         width: 48%;
-         margin-bottom: 4%;
-         min-width: 320px;
-         ;
-         transition: transform .2s linear;
-      }
-
-      .card-container .card:hover {
-         transform: translateY(-5px);
-      }
-
-      .card-container .card2,
-      .card-container .card4 {
-         margin-top: 4%;
-      }
-
-      .card .img-container {
-         position: relative;
-         transition: 4s;
-      }
-
-      .card .img-container::before {
-         content: "";
-         position: absolute;
-         top: 0;
-         left: 0;
-         height: 100%;
-         width: 100%;
-         border-radius: 20px;
-         background: rgba(0, 0, 0, 0.5);
-         display: none;
-      }
-
-      .card img {
-         width: 100%;
-         border-radius: 20px;
-      }
-
-      .img-container a {
-         height: 50px;
-         width: 50px;
-         background: var(--text-color);
-         border-radius: 5px;
-         position: absolute;
-         top: 20px;
-         right: 20px;
-         display: none;
-      }
-
-      .img-container a i {
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-         font-size: 20px;
-         color: var(--dark-text-color);
-      }
-
-      .img-container:hover::before,
-      .img-container:hover a {
-         display: block;
-      }
-
-
-      .heading-lang {
-         display: flex;
-         justify-content: space-between;
-      }
-
-      .card h3 {
-         font-size: 28px;
-      }
-
-      .card p {
-         font-size: 18px;
-         color: var(--grey-color);
-         display: flex;
-      }
-
-      .heading-lang .lang-box {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-      }
-
-      .lang-box .lang {
-         padding: 4px 8px;
-         background: #03031a81;
-         color: var(--light-grey-color);
-         border-radius: 20px;
-         border: 1px solid var(--light-grey-color);
-         margin-left: 10px;
-         font-size: 12px;
-      }
-
-      /* Process Section  */
-
-      section.process {
-         display: flex;
-         margin-bottom: 100px;
-         /* border: 1px solid yellow; */
-         padding: 10px;
-      }
-
-      .process-intro {
-         width: 50%;
-         /* border: 1px solid red; */
-      }
-
-      .process-intro h2 {
-         margin-bottom: 10px;
-      }
-      .process-intro p {
-         line-height: 30px;
-      }
-
-      .process-intro .acc-project {
-         display: flex;
-         gap: 40px;
-      }
-
-      .acc-project h3 {
-         font-size: 32px;
-      }
-
-      .acc-project p {
-         text-transform: uppercase;
-         color: var(--light-grey-color);
-         font-weight: 600;
-      }
-
-      .process-card {
-         width: 50%;
-         padding: 0 30px;
-         display: flex;
-         flex-direction: column;
-         justify-content: space-between;
-         gap: 20px;
-      }
-
-      .process-card .card {
-         border: 1px solid var(--dark-text-color);
-         padding: 15px 20px;
-         border-radius: 15px;
-         /* background: #0c0c1e8f; */
-         background: #091019;
-         /* margin-bottom: 10px; */
-      }
-
-      .process-card h3 {
-         font-size: 22px;
-         font-weight: 600;
-         margin-bottom: 10px;
-      }
-
-      .process-card p {
-         font-size: 14px;
-      }
-
-
-
-
-      @media (max-width:980px) {
-         H2+P {
-            font-size: 16px;
-            font-weight: 100;
-         }
-
-         .card h3 {
-            font-size: 20px;
-         }
-
-         .card p {
-            font-size: 12px;
-         }
-
-         .lang-box .lang {
-            font-size: 8px;
-         }
-
-         .portfolio {
-            font-size: 10px;
-         }
-
-         .portfolio span {
-            height: 6px;
-            width: 6px;
-
-         }
-      }
-      @media (max-width:720px) {
-         section.process{
-            flex-direction: column;
-         }
-         .process-intro{
-            width: 100%;
-            margin-bottom: 40px;
-         }
-         .process-card{
-            width: 100%;
-            padding: 10px;
-         }
-      }
-   </style>
-
 </head>
 
 <body>
@@ -303,23 +51,21 @@
    <div class="container">
 
       <!-- Main Heading  -->
-
       <section class="main">
          <div class="portfolio">
             <span></span> Our Portfolio
          </div>
          <h1> Built for <span>Performance</span> </h1>
-         <p> A curated selection of our most impactful work. We design and engineer digital Products that define
-            industries.</p>
+         <p> A curated selection of our most impactful work. We design and engineer digital Products that define industries.</p>
          <button class="btn btn-primary"> View Open Roles </button>
       </section>
 
 
       <!-- Work Section  -->
-
       <section class="work">
-         <h2> Our Works </h2>
-         <p> Conprehensive tech solutions designed for scale and performance. </p>
+         <h2> Ideas Turned Into Digital Experiences </h2>
+         <p> Explore a selection of concept projects that demonstrate our approach to design, development, and solving
+            real-world digital challenges. </p>
          <div class="card-container">
             <div class="card card1">
                <div class="img-container">
@@ -329,13 +75,13 @@
                   </a>
                </div>
                <div class="heading-lang">
-                  <h3> Nova Financial</h3>
-                  <div class="lang-box">
+                  <h3> Nova Finance</h3>
+                  <!-- <div class="lang-box">
                      <div class="lang">Node.js</div>
                      <div class="lang">React</div>
-                  </div>
+                  </div> -->
                </div>
-               <p>Banking Platform Redesign </p>
+               <p>A modern financial dashboard designed to simplify expense tracking, account management, and financial reporting.</p>
             </div>
             <div class="card card2">
                <div class="img-container">
@@ -345,13 +91,14 @@
                   </a>
                </div>
                <div class="heading-lang">
-                  <h3> Nova Financial</h3>
-                  <div class="lang-box">
+                  <h3>ShopSphere</h3>
+                  <!-- <div class="lang-box">
                      <div class="lang">Node.js</div>
                      <div class="lang">React</div>
-                  </div>
+                  </div> -->
                </div>
-               <p>Banking Platform Redesign </p>
+               <p>An intuitive online shopping experience featuring product discovery, category navigation, and a
+                  streamlined shopping interface.</p>
             </div>
             <div class="card card3">
                <div class="img-container">
@@ -361,13 +108,14 @@
                   </a>
                </div>
                <div class="heading-lang">
-                  <h3> Nova Financial</h3>
-                  <div class="lang-box">
+                  <h3> MediConnect </h3>
+                  <!-- <div class="lang-box">
                      <div class="lang">Node.js</div>
                      <div class="lang">React</div>
-                  </div>
+                  </div> -->
                </div>
-               <p>Banking Platform Redesign </p>
+               <p>A healthcare platform concept designed to make appointment discovery, patient information, and service
+                  navigation easier.</p>
             </div>
             <div class="card card4">
                <div class="img-container">
@@ -377,18 +125,19 @@
                   </a>
                </div>
                <div class="heading-lang">
-                  <h3> Nova Financial</h3>
-                  <div class="lang-box">
+                  <h3>TaskFlow</h3>
+                  <!-- <div class="lang-box">
                      <div class="lang">Node.js</div>
                      <div class="lang">React</div>
-                  </div>
+                  </div> -->
                </div>
-               <p>Banking Platform Redesign </p>
+               <p>A project management dashboard concept that helps teams organize tasks, track progress, and manage
+                  their daily workflow.</p>
             </div>
          </div>
-         <div style="text-align:center;">
-            <button class="btn btn-tertiary"> Load More Projects </button>
-         </div>
+         <!-- <div style="text-align:center;"> -->
+         <!-- <button class="btn btn-tertiary"> Load More Projects </button> -->
+         <!-- </div> -->
       </section>
 
 
@@ -396,16 +145,16 @@
       <section class="process">
          <div class="process-intro">
             <h2> Our Process is <span>transparent & agile.</span></h2>
-            <p> We don't just write code; we engineer solutions. Every project follows a rigorous cycle of discovery,
+            <p> We don't just write code, we engineer solutions. Every project follows a rigorous cycle of discovery,
                design, development, and deployment, ensuring high-quality output at every stage.</p>
 
             <div class="acc-project">
                <div class="accuracy">
-                  <h3>98%</h3>
+                  <h3>95%</h3>
                   <p>Accuracy </p>
                </div>
                <div class="project">
-                  <h3>50+</h3>
+                  <h3>10+</h3>
                   <p>Project Launched</p>
                </div>
             </div>
@@ -414,33 +163,36 @@
          <div class="process-card">
             <div class="card">
                <h3> Discovery & Strategy</h3>
-               <p>Understanding your goals, analyzing the market, and defining the roadmap.</p>
+               <p>We identify project goals, understand user requirements, and establish a clear direction for
+                  development.</p>
             </div>
             <div class="card">
-               <h3> Discovery & Strategy</h3>
-               <p>Understanding your goals, analyzing the market, and defining the roadmap.</p>
+               <h3> Design and Planning </h3>
+               <p>We structure the user experience, create wireframes, and develop visual concepts that align with the
+                  project objectives.</p>
             </div>
             <div class="card">
-               <h3> Discovery & Strategy</h3>
-               <p>Understanding your goals, analyzing the market, and defining the roadmap.</p>
+               <h3> Development & Testing </h3>
+               <p>We build functional interfaces, implement required features, and test the experience across different
+                  devices.</p>
             </div>
          </div>
       </section>
 
 
-       <!-- Ready To Scale Section -->
+      <!-- Ready To Scale Section -->
 
-       <section class="ready-scale">
-            <h2>Ready to Scale ?</h2>
-            <p>Let's build something extraordinary together</p>
-            <div class="ready-icon">
-              <a href="contact.html" class="btn btn-primary"> Start Project </a>
-              <div class="icon">
-                <i class="fa-solid fa-globe"></i>
-                <i class="fa-solid fa-envelope"></i>
-              </div>
+      <section class="ready-scale">
+         <h2>Have an Idea? Let's Make It Happen.</h2>
+         <p> Whether you're starting a new project or improving an existing one, we're ready to help turn  ideas into practical digital solutions.</p>
+         <div class="ready-icon">
+            <a href="contact.html" class="btn btn-primary"> Let's Talk </a>
+            <div class="icon">
+               <i class="fa-solid fa-globe"></i>
+               <i class="fa-solid fa-envelope"></i>
             </div>
-          </section>
+         </div>
+      </section>
       <!-- Footer Starts -->
       <footer>
          <div class="footer-grid">
@@ -452,15 +204,15 @@
             </div>
             <div>
                <h4>Services</h4>
-               <a href="#">Development</a>
-               <a href="#">Web Design</a>
-               <a href="#">Digital Marketing</a>
+               <a href="service.html">Development</a>
+               <a href="service.html">Web Design</a>
+               <a href="service.html">Digital Marketing</a>
             </div>
             <div>
                <h4>Social</h4>
-               <a href="#">Twitter</a>
-               <a href="#">Linkedin</a>
-               <a href="#">Instagram</a>
+               <a href="https://www.twitter.com/">Twitter</a>
+               <a href="https://www.linkedin.com/">Linkedin</a>
+               <a href="https://www.instagram.com/">Instagram</a>
             </div>
             <div>
                <h4>Legal</h4>
@@ -469,9 +221,7 @@
             </div>
          </div>
          <div class="copyright">
-            <div>
-               &copy; 2025 TechNova Inc. All right reserved.
-            </div>
+               <div>&copy; 2026 TechNova. All rights reserved.</div>
             <div>
                <i class="fa-solid fa-location-dot"></i>
                Meerut, UP, India

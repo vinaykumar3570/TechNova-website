@@ -23,242 +23,6 @@
 
   <!-- Main FIle CSS Link  -->
   <link rel="stylesheet" href="css/about.css" />
-  <style>
-    section.main {
-      height: 600px;
-      justify-content: center;
-      /* border: 1px solid red; */
-    }
-    .main p{
-      margin: 20px 0;
-    }
-
-    section.values {
-      margin-bottom: 80px;
-    }
-
-    section > .para {
-      color: var(--light-grey-color);
-      margin: 10px 0 30px;
-    }
-
-    .value-cards {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-
-    .value-cards .card {
-      padding: 30px 20px;
-      background: #091019;
-      border: 1px solid var(--dark-grey-color);
-      border-radius: 20px;
-      transition: 0.5s;
-      flex: 1 0 220px;
-    }
-
-    .value-cards .card:hover {
-      box-shadow: 0 0 5px var(--primary-color);
-      transform: translateY(-5px);
-    }
-
-    .value-cards .card i {
-      /* padding: 10px; */
-      color: var(--primary-color);
-      background: #112a4d;
-      display: inline-block;
-      height: 50px;
-      width: 50px;
-      font-size: 25px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 5px;
-    }
-
-    .value-cards .card h3 {
-      margin: 15px 0;
-    }
-
-    .value-cards .card p {
-      color: var(--grey-color);
-      line-height: 25px;
-    }
-
-    /* Our Teams Section */
-
-    section.our-teams {
-      margin-bottom: 100px;
-    }
-
-    .teams-card {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .person {
-      position: relative;
-      overflow: hidden;
-      border-radius: 15px;
-      width: 23%;
-    }
-
-    .person img {
-      width: 100%;
-    }
-
-    .person-detail {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background-image: linear-gradient(rgba(0, 0, 0, 0),
-          rgba(0, 0, 0, 0.9) 90%);
-      height: 100%;
-      width: 100%;
-      transition: all 0.5s;
-    }
-
-    .person:hover .person-detail {
-      top: 0;
-    }
-
-    .person-detail h4 {
-      font-size: 20px;
-      color: var(--text-color);
-      font-weight: 600;
-    }
-
-    .person-detail p {
-      color: var(--text-color);
-      font-size: 14px;
-    }
-
-    .person-detail .detail {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-    }
-
-
-    /* client carousel  */
-    section.our-clients {
-      margin-bottom: 50px;
-    }
-
-    .item {
-      width: 80%;
-      margin: 0 auto;
-      padding: 40px;
-      background: #091019;
-      color: #fff;
-      border-radius: 20px;
-      border: 1px solid var(--dark-grey-color);
-    }
-
-    .item p {
-      font-size: 18px;
-      line-height: 25px;
-      position: relative;
-      text-align: center;
-    }
-
-    .client-detail {
-      height: 50px;
-      width: 170px;
-      display: flex;
-      justify-content: space-between;
-      margin: 20px auto 0;
-    }
-
-    .client .client-name {
-      font-size: 16px;
-      font-weight: 400;
-      margin-top: 5px;
-    }
-
-    .client .client-location {
-      font-size: 12px;
-      color: lightgrey;
-    }
-
-    .owl-theme .owl-dots .owl-dot span {
-      background: var(--grey-color);
-    }
-
-    .owl-carousel .owl-dots .owl-dot.active span,
-    .owl-carousel .owl-dots .owl-dot:hover span {
-      background-color: var(--primary-color);
-    }
-
-    .item p::before {
-      content: "\201c";
-      font-size: 25px;
-      line-height: 10px;
-    }
-
-    .item p::after {
-      content: "\201d";
-      font-size: 25px;
-      line-height: 10px;
-    }
-
-
-
-    @media screen and (max-width:820px) {
-      .person {
-        border-radius: 10px;
-      }
-
-      .person-detail h4 {
-        font-size: 16px;
-      }
-
-      .person-detail p {
-        font-size: 10px;
-      }
-    }
-
-    @media screen and (max-width:620px) {
-      .person {
-        width: 48%;
-        margin-bottom: 20px;
-        border-radius: 15px;
-      }
-
-      .person-detail h4 {
-        font-size: 20px;
-      }
-
-      .person-detail p {
-        font-size: 14px;
-      }
-
-      .item {
-        width: 95%;
-        padding: 20px;
-      }
-
-      .item p {
-        font-size: 16px;
-      }
-    }
-
-    @media screen and (max-width:420px) {
-      .person {
-        border-radius: 10px;
-      }
-
-      .person-detail h4 {
-        font-size: 16px;
-      }
-
-      .person-detail p {
-        font-size: 10px;
-      }
-    }
-  </style>
 </head>
 
 <body>
@@ -290,7 +54,7 @@
     <!-- Main Section  -->
 
     <section class="main">
-      <h1 style="text-align: center">Build the <span>Future.</span></h1>
+      <h1 style="text-align: center">Building <span>Digital Experiences</span> That Matter.</h1>
       <p>
         We are building the operating system for tomorrow. Join a team of
         innovators, dreamers and doers who aren't afraid to challenge the
@@ -310,26 +74,26 @@
       <div class="value-cards">
         <div class="card">
           <i class="fa-regular fa-gem"></i>
-          <h3>Obession with Quality</h3>
+          <h3>Obsession with Quality</h3>
           <p>
-            We never settle for 'good enough'. Excellence is our standard, and
-            we take pride in craft.
+            We pay attention to every detail, from clean code to polished interfaces. Our goal is to deliver digital
+            products that are reliable, intuitive, and built to last.
           </p>
         </div>
         <div class="card">
           <i class="fas fa-bolt"></i>
           <h3>Move Fast, Break Nothing</h3>
           <p>
-            We never settle for 'good enough'. Excellence is our standard, and
-            we take pride in craft.
+            We believe in working efficiently without compromising quality. Through careful planning and continuous
+            testing, we turn ideas into solutions with confidence.
           </p>
         </div>
         <div class="card">
           <i class="fa-solid fa-earth-americas"></i>
           <h3>Global Mindset</h3>
           <p>
-            We never settle for 'good enough'. Excellence is our standard, and
-            we take pride in craft.
+            Technology connects people everywhere. We design with different users, perspectives, and business needs in
+            mind to create accessible digital experiences.
           </p>
         </div>
       </div>
@@ -338,11 +102,11 @@
     <!-- Our Team Section -->
 
     <section class="our-teams">
-      <h2>Our Teams</h2>
+      <h2>Meet the People Behind TechNova</h2>
       <p class="para">
-        Our team is made up of skilled and passionate professionals dedicated
-        to deleverign quality and innovation. We work collaboratively to
-        create reliable, modern, and impactful technology solutions.
+        Great digital products are built through collaboration.
+        Our team brings together design, development, and problem-solving skills to transform complex ideas into simple
+        and effective digital experiences.
       </p>
 
       <div class="teams-card">
@@ -396,8 +160,8 @@
       <div class="owl-carousel owl-theme owl-ltr">
         <div class="item testimonal-card">
           <p>
-            The level of autonomy and trust here is unlike anywhere else I've worked. You own your projects from day
-            one, and the impact is immediate.
+            "The team made the entire process simple and organized. They understood our requirements and translated our
+            ideas into a clean, user-friendly digital experience."
           </p>
           <div class="client-detail">
             <!-- <div class="client-img"> -->
@@ -411,9 +175,8 @@
         </div>
         <div class="item testimonal-card">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Odio atque placeat
-            voluptates blanditiis! Placeat laboriosam cum, soluta culpa
-            corporis repellat!
+            "We appreciated the attention to detail and the thoughtful design decisions. The final experience felt
+            modern, consistent, and easy to navigate."
           </p>
           <div class="client-detail">
             <!-- <div class="client-img"> -->
@@ -427,9 +190,8 @@
         </div>
         <div class="item testimonal-card">
           <p>
-            Lorem ipsum dolor sit amet consectetur. Odio atque placeat
-            voluptates blanditiis! Placeat laboriosam cum, soluta culpa
-            corporis repellat!
+            "From the initial discussion to the final delivery, the workflow was smooth. The team focused on
+            performance, functionality, and our business goals."
           </p>
           <div class="client-detail">
             <!-- <div class="client-img"> -->
@@ -455,15 +217,15 @@
         </div>
         <div>
           <h4>Services</h4>
-          <a href="#">Development</a>
-          <a href="#">Web Design</a>
-          <a href="#">Digital Marketing</a>
+          <a href="service.html">Development</a>
+          <a href="service.html">Web Design</a>
+          <a href="service.html">Digital Marketing</a>
         </div>
         <div>
           <h4>Social</h4>
-          <a href="#">Twitter</a>
-          <a href="#">Linkedin</a>
-          <a href="#">Instagram</a>
+          <a href="https://www.twitter.com/">Twitter</a>
+          <a href="https://www.linkedin.com/">Linkedin</a>
+          <a href="https://www.instagram.com/">Instagram</a>
         </div>
         <div>
           <h4>Legal</h4>
@@ -472,7 +234,7 @@
         </div>
       </div>
       <div class="copyright">
-        <div>&copy; 2025 TechNova Inc. All right reserved.</div>
+          <div>&copy; 2026 TechNova. All rights reserved.</div>
         <div>
           <i class="fa-solid fa-location-dot"></i>
           Meerut, UP, India
