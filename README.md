@@ -2,6 +2,8 @@
 
 TechNova is a modern, responsive digital agency website concept designed to showcase technology services, creative solutions, and digital projects. The website focuses on a clean user interface, attractive layouts, and an engaging user experience.
 
+Live link - https://technova-site-work.netlify.app/
+
 ## 🚀 About The Project
 
 TechNova represents a digital technology agency that provides services such as web development, UI/UX design, cloud infrastructure, cybersecurity, data analytics, and application development.
