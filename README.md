@@ -109,7 +109,9 @@ TechNova/
 ## 👨‍💻 Author
 
 **Vinay Kumar**
+
 Frontend Developer
+
 Interested in creating modern, responsive, and user-friendly web experiences.
 
 ## 📌 Project Status
